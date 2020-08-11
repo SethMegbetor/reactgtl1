@@ -1,6 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
+import myimage1 from "./img/seth1.jpg";
+import myimage2 from "./img/seth2.jpg";
+import myimage3 from "./img/seth3.jpg";
 
 // adding props
 const Person = ({ img, name, job, children }) => {
@@ -8,7 +11,7 @@ const Person = ({ img, name, job, children }) => {
   const url = `https://randomuser.me/api/portraits/thumb/men/${img}.jpg`;
   return (
     <article className="person">
-      <img src={url}></img>
+      <img className="img" src={myimage1} />
       <h4>{name}</h4>
       <h4>{job}</h4>
       {children}

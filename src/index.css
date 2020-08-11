@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+.img {
+  width: 70px;
+  height: 80px;
+}
+
 .person {
   background: rgb(216, 209, 209);
   color: #000;
@@ -19,6 +24,10 @@
   box-shadow: 2px 5px 10px rgba(12, 4, 4, 0.849);
 }
 
+.person-list {
+  display: flex;
+}
+
 .person img {
   border-radius: 50%;
   border-radius: 0.1rem solid teal;
@@ -29,4 +38,10 @@
   margin: 0rem 0;
   letter-spacing: 0.15rem;
   color: rgb(19, 130, 173);
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .person-list {
+    display: block;
+  }
 }
