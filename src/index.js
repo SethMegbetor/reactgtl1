@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
 import myimage1 from "./img/seth1.jpg";
 // import myimage2 from "./img/seth2.jpg";
 // import myimage3 from "./img/seth3.jpg";
 
+import "./index.css";
 // adding props
 const Person = ({ img, name, job, children }) => {
   // using template litrals
